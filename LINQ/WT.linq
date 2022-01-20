@@ -57,7 +57,7 @@ void Main()
 	
 	DataRow rowBranch = dtBranch.NewRow();	
 	rowBranch["BranchID"] = "B1";
-	rowBranch["Name"] = "B1_Name";
+	rowBranch["Name"] = "B1_Name_";
 	dtBranch.Rows.Add(rowBranch);
 	
 	DataRow rowBranch1 = dtBranch.NewRow();
